@@ -1,0 +1,44 @@
+Microsoft Windows [Version 10.0.19045.6456]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32>nmap -sS -sV 192.168.1.0/24
+Starting Nmap 7.98 ( https://nmap.org ) at 2025-11-13 18:09 +0530
+Nmap scan report for 192.xxx.x.x
+Host is up (0.0060s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT    STATE    SERVICE      VERSION
+21/tcp  filtered ftp
+22/tcp  filtered ssh
+23/tcp  filtered telnet
+53/tcp  open     domain       dnsmasq 2.80
+139/tcp filtered netbios-ssn
+445/tcp filtered microsoft-ds
+MAC Address: B4:xx:xx:xx:xx:70 (optilink networks pvt)
+
+Nmap scan report for 192.xxx.x.xx
+Host is up (0.017s latency).
+All 1000 scanned ports on 192.xxx.x.xx are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: B6:xx:xx:xx:xx:B5 (Unknown)
+
+Nmap scan report for 192.xxx.x.xx
+Host is up (0.023s latency).
+All 1000 scanned ports on 192.xxx.x.xx are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 3E:xx:xx:xx:xx:DB (Unknown)
+
+Nmap scan report for 192.xxx.x.xx
+Host is up (0.00026s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+3306/tcp open  mysql         MySQL (unauthorized)
+5560/tcp open  http          Oracle Application Server httpd 9.0.4.1.0
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 256 IP addresses (4 hosts up) scanned in 33.64 seconds
+
+C:\Windows\system32>
