@@ -35,7 +35,8 @@ Analyze a suspicious email and identify:
 4. Email Header Used for Analysis
   - /Header-analysis text.txt
 5. Header Analysis (SPF, DKIM, DMARC)
-  - After pasting the header into Google Admin Toolbox – Message Header Analyzer, the results were: (/Screenshots/Header Analysis.jpg)
+  - After pasting the header into Google Admin Toolbox – Message Header Analyzer, the results were: 
+  - (/Screenshots/Header Analysis.jpg)
     | Authentication | Status        | Meaning                                    |
     | -------------- | ------------- | ------------------------------------------ |
     | SPF            | Fail          | Sender server is NOT authorized            |
