@@ -1,0 +1,56 @@
+Interview Questions & Answers
+
+1. What is Phishing?
+Phishing is a cyberattack where attackers trick users into sharing sensitive information such as passwords, banking details, or OTPs by pretending to be a trusted organization. It commonly happens through emails, messages, or fake websites designed to look legitimate.
+
+2. How to identify a phishing email?
+You can identify a phishing email by checking for:
+- Spoofed or suspicious sender address
+- Urgent or threatening language
+- Poor grammar and generic greetings
+- Mismatched or strange URLs
+- Unexpected attachments
+- Failed SPF/DKIM/DMARC checks in email headers
+
+3️. What is email spoofing?
+Email spoofing is when attackers forge the “From” address to make the email appear as if it came from a trusted source. This tricks victims into believing the email is legitimate and increases the chances of clicking malicious links.
+
+4️. Why are phishing emails dangerous?
+Phishing emails are dangerous because they can:
+- Steal your login credentials
+- Install malware, ransomware, or keyloggers
+- Lead to identity theft
+- Compromise financial accounts
+- Spread further attacks inside an organization
+
+5️. How can you verify the sender’s authenticity?
+You can verify authenticity by:
+- Checking the full email address and domain
+- Inspecting the email header for SPF, DKIM, DMARC results
+- Hovering over links to see the real URL
+- Contacting the organization directly (never through the email)
+- Looking for grammar errors, generic greetings, and unusual requests
+
+6️. What tools can analyze email headers?
+Common tools include:
+- Google Admin Toolbox – Message Header Analyzer
+- MXToolbox Header Analyzer
+- MessageHeaderAnalyzer.com
+- Microsoft Remote Connectivity Analyzer
+These tools help detect spoofing, sender IPs, and authentication results.
+
+7️. What actions should be taken on suspected phishing emails?
+You should:
+- Do NOT click any links or download attachments
+- Report the email to your IT/security team
+- Mark it as spam or phishing in your mail provider
+- Delete the email permanently
+- If you clicked anything, immediately change passwords and scan your device
+
+8️. How do attackers use social engineering in phishing?
+Attackers use social engineering by:
+- Creating fear (account suspension, urgent deadlines)
+- Offering rewards (refunds, prizes)
+- Pretending to be trusted services (banks, PayPal, HR)
+- Using psychological pressure to make victims act quickly
+- Social engineering manipulates human emotions to bypass technical security.
